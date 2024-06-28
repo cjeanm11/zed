@@ -618,7 +618,11 @@
   {
     "context": "Editor && vim_mode == visual",
     "bindings": {
-      "g c": "vim::ToggleComments"
+      "g c": "vim::ToggleComments",
+      "left": "vim::Left",
+      "down": "vim::Down",
+      "up": "vim::Up",
+      "right": "vim::Right"
     }
   },
   {
